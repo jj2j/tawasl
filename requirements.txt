@@ -1,7 +1,6 @@
 pyTelegramBotAPI 
 requests
 user_agent
-json
 flask
 telebot
 random
