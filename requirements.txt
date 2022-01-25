@@ -3,8 +3,5 @@ requests
 user_agent
 flask
 telebot
-random
-os
-sys
 logging
 config
