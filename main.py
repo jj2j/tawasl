@@ -1,8 +1,12 @@
 import requests
 from telebot import types
 import telebot
-
-token = '5238529821:AAHCfWYnOi1xjDKYWlYpWRj2C37HGc7I1ko' # توكن
+import requests,user_agent,json,flask,telebot,random,os,sys
+from user_agent import generate_user_agent
+import logging
+from config import *
+from flask import Flask, request
+token = '5190193552:AAEpHakiCRzr64saMAaEyADUfPu9MHWOL9A' # توكن
 sudo = 1818416834 # ايدي
 bot = telebot.TeleBot(token)
 server = Flask(__name__)
