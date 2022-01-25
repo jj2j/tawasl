@@ -106,11 +106,7 @@ def check(message):
     bot.send_message(message.chat.id, text=f'*تم ارسال الرساله بنجاح ✅*', parse_mode='markdown')
 
 
-while True:
-    try:
-        bot.polling(none_stop=True)
-    except Exception as ex:
-        telebot.logger.error(ex)
+
 
 @server.route(f"/{BOT_TOKEN}", methods=["POST"])
 def redirect_message():
