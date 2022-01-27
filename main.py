@@ -1,3 +1,8 @@
+BOT_TOKEN = '5238529821:AAHCfWYnOi1xjDKYWlYpWRj2C37HGc7I1ko'
+APP_URL = 'https://tawasl.herokuapp.com/'+BOT_TOKEN
+from flask import Flask
+import logging
+import os
 import telebot
 from telebot import types
 import requests
@@ -13,7 +18,6 @@ start_msg = '''
  
  𖢿 - ˢᵗᵃʳᵗ ʰᵘᶰᵗ - - > /hunt  <- - 
 ______________________ 
-
 '''
 @bot.message_handler(commands=['start'])
 def hello(message):
