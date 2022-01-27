@@ -1,8 +1,6 @@
 import telebot
 from telebot import types
 import requests
-import  random, time, user_agent,requests
-from user_agent import generate_user_agent
 ID = '1818416834'
 bot = telebot.TeleBot(BOT_TOKEN)
 server = Flask(__name__)
