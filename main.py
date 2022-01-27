@@ -25,7 +25,6 @@ def hello(message):
 	bot.send_photo(message.chat.id, photo, start_msg)
 	voice = 'https://t.me/bqbzb/2'
 	bot.send_voice(message.chat.id, voice, '@BQBXB')
-@bot.message_handler(commands=['hunt'])
 @server.route(f"/{BOT_TOKEN}", methods=["POST"])
 def redirect_message():
     json_string = request.get_data().decode("utf-8")
