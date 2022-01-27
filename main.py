@@ -1,8 +1,7 @@
-BOT_TOKEN = '5238529821:AAHCfWYnOi1xjDKYWlYpWRj2C37HGc7I1ko'
-APP_URL = 'https://tawasl.herokuapp.com/'+BOT_TOKEN
 from flask import Flask
 import logging
 import os
+import config
 import telebot
 from telebot import types
 import requests
