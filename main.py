@@ -5,7 +5,7 @@ import  random, time, user_agent,requests
 from user_agent import generate_user_agent
 ID = '1818416834'
 
-token = ''5238529821:AAHCfWYnOi1xjDKYWlYpWRj2C37HGc7I1ko'
+token = '5238529821:AAHCfWYnOi1xjDKYWlYpWRj2C37HGc7I1ko'
 bot = telebot.TeleBot(token)
 server = Flask(__name__)
 logger = telebot.logger
