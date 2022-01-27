@@ -34,4 +34,4 @@ def redirect_message():
 if __name__ == "__main__":
     bot.remove_webhook()
     bot.set_webhook(url="https://tawasl.herokuapp.com/"+str(BOT_TOKEN))
-    server.run(host="0.0.0.0", port=int(os.environ.get("PORT", 7000)))
+    server.run(debug=True, port=19000))
